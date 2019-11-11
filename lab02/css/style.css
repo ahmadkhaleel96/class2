@@ -1,0 +1,17 @@
+body {
+    background: grey;
+}
+p{
+    background: rgb(146, 114, 71);
+    color: rgb(255, 244, 244);
+}
+footer{
+    background: black;
+    color: whitesmoke;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: black;
+    background: honeydew;
+}
