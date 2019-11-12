@@ -7,3 +7,37 @@ logs
 
 # Optional eslint cache
 .eslintcache
+
+
+var wrong_answer = false
+var arr = [ 'best picture', 'best actor', 'best actress', 'best dirctor' ];
+var oscar = prompt("name one of the most important academy awards (oscars)?")
+var arts = oscar.toLowerCase();
+if (!(wrong_answer))
+for (var i=0; i<=3 ; i++){
+      
+    }
+     if (!(wrong_answer)){
+            prompt("sorry incorrect answer please think harder... OR I SWEAR TO GOD I WILL JUMP OUT OF THE SCREEN AND JUST STAIR AT YOU!!!");
+    }
+
+    var y = i;
+    if (y == 4){
+        alert("i think me stairing at you didn't work with you!!, DUDE the answers are: architecture, music, painting, sculpture, poetry, dance, cinema");
+    }
+
+
+
+for(var j=0; j <= 5; j++ ){
+for(var i=0; i <stuff.length; i++){
+  if(art === arr[i]){
+      grade = grade +1;
+    alert('you are correct! ' + stuff[i] + 'it is a very important trophy ...your grade is:' + grade);
+    tag = 1;
+   j= 10;
+  }
+
+if(tag===0){
+  prompt('sorry incorrect answer please think harder... OR I SWEAR TO GOD I WILL JUMP OUT OF THE SCREEN AND JUST STAIR AT YOU!!!... your grade is:' + grade);
+}
+}}
