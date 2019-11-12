@@ -1,23 +1,14 @@
-# amman-201d3-class2
-### it is a daily work and the direction is unknown
+## About project:
+This project is a smaal introduction about me, with a Know about me game that that takes a yes/no or y/n answer to give the user additional information about me that are not avaliable in the website.
 
-## Getting Started
-### this file is very important and is built upon
+## a Ahmad Khaleel Almahasneh project ##
+still a student so my instructor and teaching assistents helped me complete the task.
 
-## Built With
-### VScode
+## i reset the CSS using the provided Reset css code, and used the git ignore to put unimportant commands and .eslintrc.json to help me know errors in JS.
 
-## Contributing
-### the TAs (my boys!)
+## license
+This project is licensed under the MIT License.
 
-## Authors
-### Ahmad khaleel almahasneh - i always wanted to do that.
-
-## License
-### This project is licensed under the MIT License - see the LICENSE.md file for details
-
-### Acknowledgments
-samer 
-raghad
-bashar
-LTUC
+## Acknowledgements:
+1. copy the [reset.css](https://meyerweb.com/eric/tools/css/reset/)
+2. copy the [.eslintrc.json](https://github.com/LTUC/amman-201d2/blob/master/configs/.eslintrc.json)
