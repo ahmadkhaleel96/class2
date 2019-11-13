@@ -47,7 +47,6 @@ if (film.toUpperCase() == "YES" || film.toUpperCase() == "Y") {
 }
 
 var guess = prompt("guess a number between 1 and 10");
-var x = 0;
 for ( var i=0; i<=2 ; i++ ){
 
 if  (guess <= 5 && guess >= 1){
@@ -57,15 +56,13 @@ if  (guess <= 5 && guess >= 1){
 } else if(guess == 6){
     grade = grade +1;
     alert("you are correct!... your grade is: " + grade);
-    i = 4;
+    break; 
 } else {
    guess = prompt("please choose a number betwwen 1 and 10");
 }
-
-var x = i;}
-if (x == 2){
+if (i == 2){
     alert("the answer is: 6... your grade is: " + grade);
-}
+} }
 var arr = ['architecture','music','drawing','sculpture','poetry','dance','cinema'];
 var art = prompt('name one of the seven arts');
 var arts = art.toLowerCase();
