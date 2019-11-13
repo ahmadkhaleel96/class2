@@ -16,6 +16,7 @@ function qWeird () {
   }
 }qWeird();
 
+function qNerd () {
 var nerd = prompt('am i a movie, series, anime Nerd?');
 // console.log(nerd.toUpperCase())
 if (nerd.toUpperCase() == 'YES' || nerd.toUpperCase() == 'Y') {
@@ -24,6 +25,8 @@ if (nerd.toUpperCase() == 'YES' || nerd.toUpperCase() == 'Y') {
 } else{
   alert(' i guess watching 131 movies, 2 series, 5 Animee. in a 25 days does not qualify me to be a nerd IDK!!... you grade is: ' + grade);
 }
+}qNerd();
+
 var like = prompt('do i like people?');
 // console.log(like.toUpperCase())
 if (like.toUpperCase() == 'NO' || like.toUpperCase() == 'N') {
