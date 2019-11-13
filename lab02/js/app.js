@@ -27,6 +27,7 @@ if (nerd.toUpperCase() == 'YES' || nerd.toUpperCase() == 'Y') {
 }
 }qNerd();
 
+function qLike () {
 var like = prompt('do i like people?');
 // console.log(like.toUpperCase())
 if (like.toUpperCase() == 'NO' || like.toUpperCase() == 'N') {
@@ -35,6 +36,8 @@ if (like.toUpperCase() == 'NO' || like.toUpperCase() == 'N') {
 } else{
   alert('REALLY, lets us think for a bit if i like people why would i do a Know About me game on a random website your grade is: ' + grade);
 }
+}qLike();
+
 var habit = prompt('am i a creature of habit?');
 // console.log(habit.toUpperCase())
 if (habit.toUpperCase() == 'NO' || habit.toUpperCase() == 'N') {
