@@ -13,3 +13,8 @@ This project is licensed under the MIT License.
 ## Acknowledgements:
 1. copy the [reset.css](https://meyerweb.com/eric/tools/css/reset/)
 2. copy the [.eslintrc.json](https://github.com/LTUC/amman-201d2/blob/master/configs/.eslintrc.json)
+
+# Pair Programing 
+i am abdulrhman i was a driver for ahmad khalel project 
+i added functions to his project as Function 1 for the first quastion and Function 2 for second one etc ...
+also commit each function i added it .
