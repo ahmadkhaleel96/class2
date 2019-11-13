@@ -38,6 +38,7 @@ if (like.toUpperCase() == 'NO' || like.toUpperCase() == 'N') {
 }
 }qLike();
 
+function qHabit () {
 var habit = prompt('am i a creature of habit?');
 // console.log(habit.toUpperCase())
 if (habit.toUpperCase() == 'NO' || habit.toUpperCase() == 'N') {
@@ -46,6 +47,7 @@ if (habit.toUpperCase() == 'NO' || habit.toUpperCase() == 'N') {
 } else{
   alert('i love my creativity!!! I AM NOT a routine guy!! ... your grade is: ' + grade);
 }
+}qHabit();
 var film = prompt('do i love filmmaking?');
 // console.log(film.toUpperCase())
 if (film.toUpperCase() == 'YES' || film.toUpperCase() == 'Y') {
