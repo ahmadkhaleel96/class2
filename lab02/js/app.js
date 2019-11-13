@@ -48,6 +48,8 @@ if (habit.toUpperCase() == 'NO' || habit.toUpperCase() == 'N') {
   alert('i love my creativity!!! I AM NOT a routine guy!! ... your grade is: ' + grade);
 }
 }qHabit();
+
+function qPrompt(){
 var film = prompt('do i love filmmaking?');
 // console.log(film.toUpperCase())
 if (film.toUpperCase() == 'YES' || film.toUpperCase() == 'Y') {
@@ -56,6 +58,7 @@ if (film.toUpperCase() == 'YES' || film.toUpperCase() == 'Y') {
 } else{
   alert('dude, you should read and develope your mind and train with those bald monk dudes, to know i love filmmaking!! your grade is: ' + grade);
 }
+}qPrompt();
 
 var guess = prompt('guess a number between 1 and 10');
 for ( var i=0; i<=2 ; i++ ){
