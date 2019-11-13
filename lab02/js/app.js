@@ -60,6 +60,7 @@ if (film.toUpperCase() == 'YES' || film.toUpperCase() == 'Y') {
 }
 }qPrompt();
 
+function gussGame(){
 var guess = prompt('guess a number between 1 and 10');
 for ( var i=0; i<=2 ; i++ ){
 
@@ -77,6 +78,7 @@ for ( var i=0; i<=2 ; i++ ){
   if (i == 2){
     alert('the answer is: 6... your grade is: ' + grade);
   } }
+}gussGame();
 var arr = ['architecture','music','drawing','sculpture','poetry','dance','cinema'];
 var art = prompt('name one of the seven arts');
 var arts = art.toLowerCase();
