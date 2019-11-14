@@ -1,9 +1,12 @@
 body {
-    background: grey;
+    background: lightgoldenrodyellow;
+    line-height: 2;
 }
 p{
-    background: rgb(146, 114, 71);
+    background: rgb(88, 70, 47);
     color: rgb(255, 244, 244);
+    text-align: center;
+    margin: 20px;
 }
 footer{
     background: black;
@@ -14,4 +17,17 @@ h2{
     text-align: center;
     color: black;
     background: honeydew;
+}
+ol {
+    text-align: center;
+    margin: 20px;
+    text-size-adjust: 14;
+    list-style-type: decimal;
+}
+body ol {
+    list-style-type: decimal;
+    text-emphasis: bold;
+}
+ul {
+    list-style-type: circle;
 }
