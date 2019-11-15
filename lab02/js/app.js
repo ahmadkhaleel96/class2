@@ -4,9 +4,9 @@ var grade =0; // the score of the  guess game
 // the name question
 
 var name = prompt('Give me that amazing Name of yours');
-alert(name + ' What a lovely name indeed! you should be proud of it!!');
+alert(name + ' What a lovely name indeed! you should be proud of it!! ... unless you put random letters!!!');
 
-confirm('now it\'s time to use that pink thing of yours (in your skull!) and let us have a Know About me (ME THE OWNER NOT YOU !!) game ...you have no choice bro. please anwser the folowing questions using yes/no or y/n');
+confirm('now it\'s time to use that pink thing of yours (in your skull!), and let us have a Know About me (ME THE OWNER NOT YOU !!) game ...you have no choice bro. please anwser the folowing questions using yes/no or y/n');
 
 // question 1 abd added the fuction named qWeird
 
@@ -24,13 +24,13 @@ function qWeird () {
 // question 2 abd added the fuction named qNerd 
 
 function qNerd () {
-  var nerd = prompt('am i a movie, series, anime Nerd?');
+  var nerd = prompt('am i a movie, series and anime Nerd?');
   // console.log(nerd.toUpperCase())
   if (nerd.toUpperCase() == 'YES' || nerd.toUpperCase() == 'Y') {
     grade++ ;
     alert('that is correct!!, i am the biggest movies, series and anime geek in this plant!!');
   } else{
-    alert(' i guess watching 131 movies, 2 series, 5 Animee. in a 25 days does not qualify me to be a nerd IDK!!!');
+    alert('i guess watching 131 movies, 2 series and 5 Animes. in 25 days does not qualify me to be a nerd IDK!!!');
   }
 }qNerd();
 
@@ -69,11 +69,13 @@ function qPrompt(){
     grade++ ;
     alert('Filmmaking is MY TRUE passion i just love it, and photography too!!');
   } else{
-    alert('dude, you should read and develope your mind and train with those bald monk dudes, to know i love filmmaking!!');
+    alert('dude, you should read books and develope your mind and train with those bald monk dudes, to know i love filmmaking!!');
   }
 }qPrompt();
 
 // question 6 (guess the number game) abd added the fuction named gussGame
+
+alert(`${name} how about two more questions? just for fun!!, don't worry they are just for fun, not about me!!.`);
 
 function gussGame(){
   var guess = prompt('guess a number between 1 and 10');
@@ -91,7 +93,7 @@ function gussGame(){
       guess = prompt('please choose a number betwwen 1 and 10');
     }
     if (i == 2){
-      alert('the answer is: 6');
+      alert('i gave you 4 shots and you missed (good thing you are not a sniper!!), the answer is: 6');
     } }
 }gussGame();
 
@@ -102,7 +104,7 @@ function arreyQuastion () {
   var art = prompt('name one of the seven arts');
   var arts = art.toLowerCase();
   for (var i = 0; i <=4; i++){
-    if (arts == arr[0] || arts == arr[1] || arts == arr[2] || arts == arr[3] || arts == arr[4] || arts == arr[5] || arts == arr[6]) {
+    if (arts === arr[0] || arts === arr[1] || arts === arr[2] || arts === arr[3] || arts === arr[4] || arts === arr[5] || arts === arr[6]) {
       grade++ ;
       alert('you are correct! ' + arts + ' is a bueatiful art');
       break ;
@@ -114,6 +116,8 @@ function arreyQuastion () {
       alert('it seems that you don\'t know the answer, LIKE WHAT THE HELL!!!! LIKE WHAT!!! anyway the answers are: architecture, music, drawing, sculpture, poetry, dance and cinema. ... your grade is:' + grade );
     }}
   }arreyQuastion();
+
+  alert(`That was fun right? , now i think it's only right to see the website which has more information about me yaaay, and would like to say... GET A LIFE U SAD, LONELY AND WEIRD DUDE, WHAT THE HELL ARE YOU DOING PLAYING A KNOW ABOUT ME GAME FOR A STRANGE DUDE ON THE INTERNET, GO FIND SOMEONE TO MAKE YOU HAPPY YOU WIERDO!! ... sorry dude please check my website and thank you dude.`)
 
   // to show the answer on the website
   

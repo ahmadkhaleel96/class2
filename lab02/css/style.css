@@ -1,17 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Permanent+Marker&display=swap');
+/* Anton font for the ordered lists, fjalla one for unordered list and permanent marker for paragraphs*/
 body {
-    background: lightgoldenrodyellow;
+    background: #EFB381;
     line-height: 2;
 }
+header {
+    position: static ;
+    background: #599497;
+    padding-top: 3px;
+    margin-bottom: 10px ;
+    padding-bottom: 3px ;
+    border-block-color: #599497 ;
+
+}
 p{
-    background: rgb(88, 70, 47);
-    color: rgb(255, 244, 244);
+    color: rgb(43, 31, 31);
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
-    margin: 20px;
+    margin: 15px;
+}
+img {
+    width: 270px;
+    height: 300px;
+    float: right;
+    inline-size: inherit;
+    margin-right: 50px ;
 }
 footer{
     background: black;
     color: whitesmoke;
     text-align: center;
+    padding: 30px;
 }
 h2{
     text-align: center;
@@ -20,14 +41,27 @@ h2{
 }
 ol {
     text-align: center;
-    margin: 20px;
+    margin-left: 50px;
+    font-family: 'Anton', sans-serif;
     text-size-adjust: 14;
     list-style-type: decimal;
+    list-style-position: inside;
 }
 body ol {
     list-style-type: decimal;
     text-emphasis: bold;
 }
 ul {
-    list-style-type: circle;
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Fjalla One', sans-serif;
+    text-size-adjust: 18px;
+    font-weight: bold;
+}
+#donVito {
+    float: left;
+    margin-left: 50px;
+    height: 300px;
+    width: 600px;
 }
